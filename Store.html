@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+    <head>
+        <title>My Mini Store</title>
+        <link rel="stylesheet" href="store.css">
+        <style>
+            p{
+                color:#8b0000;
+                font-style:italic;
+            }
+            table{
+                border:1px solid #ccc;
+                border-collapse: collapse;
+            }
+            img{
+                width: 100px;
+            }
+            button{
+                background: #2a9d8f;
+                color: white;
+                border-radius:6px;
+                padding: 6px 12px;
+            }
+            button:hover{
+                background-color: #006400;
+            }
+            ul {
+                list-style-type: square;
+            }
+            ul ul {
+                list-style-type: circle;
+                margin-left: 20px;
+            }
+            #a{
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                padding: 15px;
+            }
+            table {
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+            }
+            td {
+                border: 1px solid #ccc;
+            }
+            tr:first-child {
+                background-color: #ffd166;
+                font-weight: bold;
+            }
+            tr:nth-child(even) {
+                background-color: lightgray;
+                }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <h1>Seven Eleven</h1>
+            <p style="color:#006400"><i>take it to eleven</i></p>
+        </div>
+        <div id="a">
+            <table>
+                <tr>
+                <td colspan="5">Featured Products</td>
+            </tr>
+            <tr>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Availability</td>
+                <td>Rating</td>
+            </tr>
+            <tr>
+                <td>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfze-_778x1yuGUe3sF8HonZLssFi5CeAAU9cVBb-zyg&s">
+                </td>
+                <td>Rice</td>
+                <td>$5</td>
+                <td rowspan="2">In Stock</td>
+                <td>4/5</td>
+            </tr>
+            <tr>
+                <td>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFYh_RUdRMG4Y4mB7LDe9HPVvG8E-IQ_rQ9k5vEtcOjw&s=10">
+                </td>
+                <td>Flour</td>
+                <td>$5</td>
+                <td>4/5</td>
+            </tr>
+            <tr>
+                <td>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_KcvPntX6XaTMNamQDumelqDZzRhJ686X2l3mCmTwYg&s=10">
+                </td>
+                <td>Cooking oil</td>
+                <td>$5</td>
+                <td>Out of stock</td>
+                <td>4/5</td>
+            </tr>
+           
+            <tr>
+                <td>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOD2Xy7B7mqzfXW-ilx1g87PD4Dj8icVRjJMWK5GDIiQ&s=10">
+                </td>
+                <td>Soap</td>
+                <td>$5</td>
+                <td>Instock</td>
+                <td>4/5</td>
+            </tr>
+            <tr>
+                <td>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtMTduLxg2RrxFWpXzkkYZ0lR3mZOa8RhoSqua-1FMJg&s=10">
+                </td>
+                <td>Dish Wash</td>
+                <td>$5</td>
+                <td>Out of stock</td>
+                <td>4/5</td>
+            </tr>
+            <tr>
+                <td>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGzPnIOrjVzkJvNFsS2GP3uaAacGh4AZDnwrAh0W5PhA&s=10">
+                </td>
+                <td>Tooth paste</td>
+                <td>$5</td>
+                <td>Instock</td>
+                <td>4/5</td>
+            </tr>
+            <tr>
+                <td>
+                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYsx71Sq4v6dg1cghpQu5KUobb5FxNA1bnHcIJxORrzA&s=10">
+                </td>
+                <td>AA Batteries</td>
+                <td>$5</td>
+                <td>Instock</td>
+                <td>4/5</td>
+            </tr>
+            </table>
+        </div>
+        <div>
+            <h2>Category</h2>
+            <ul>
+                <li>Groceries
+                 <ul>
+                    <li>Rice</li>
+                    <li>Flour</li>
+                    <li>Cooking oil</li>
+                 </ul>
+                 </li>
+                <li>Personal Care
+                 <ul>
+                    <li>Soap</li>
+                    <li>Tooth paste</li>
+                 </ul>
+                </li>
+                <li>Households and utilities
+                 <ul>
+                    <li>Dish Wash</li>
+                    <li>Batteries</li>
+                 </ul>
+                </li>
+            </ul>
+        </div>
+        <form>
+            <h2>Subscribe to Update Form</h2>
+            Name <input type="text" placeholder="Enter your name">
+            <br>
+            E-mail <input type="email" placeholder="Enter your email">
+            <br>
+            Gender: 
+            <input type="radio" name="r">Male
+            <input type="radio" name="r">Female
+            <input type="radio" name="r">Prefer not to say
+            <br>
+            <input type="checkbox">I agree to recieve updates
+            <br>
+            <button>Submit</button>
+        </form>
+
+        <footer>
+    <h3>Quick Links</h3>
+
+             <a href="https://github.com/l263066-svg/26L-3066_IICT_Assignment-3.git">My GitHub Repository</a>
+             <br>
+             <a href="HTML/Assignment/Store.html">Previous Question</a>
+        </footer>
+
+    </body>
+</html>

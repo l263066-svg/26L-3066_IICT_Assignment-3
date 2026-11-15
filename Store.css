@@ -1,0 +1,14 @@
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+p{
+    color: #f555;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
